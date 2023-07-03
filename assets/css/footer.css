@@ -50,6 +50,7 @@
 
   .footer .top .menus {
     display: flex;
+    align-items: center;
     gap: 2rem;
   }
 
