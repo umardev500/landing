@@ -82,6 +82,16 @@
     display: unset;
   }
 
+  .navbar>ul>li.dropdown a {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .navbar>ul>li.dropdown a .icon {
+    width: 20px;
+    height: 20px;
+  }
+
   /* menu */
   .menu {
     display: none;
