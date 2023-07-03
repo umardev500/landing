@@ -101,3 +101,9 @@
 .sidebar .inner .menus {}
 
 .sidebar .inner {}
+
+@media (min-width: 1280px) {
+  .sidebar {
+    display: none;
+  }
+}
