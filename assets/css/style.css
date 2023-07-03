@@ -42,6 +42,10 @@
 
 .navbar>ul>li {}
 
+.navbar>ul>li.dropdown {
+  display: none;
+}
+
 .navbar>ul>li>a {
   text-decoration: none;
   color: #6b7280;
@@ -73,6 +77,9 @@
   /* header */
   .header {
     justify-content: space-between;
+  }
+  .navbar>ul>li.dropdown {
+    display: unset;
   }
 
   /* menu */
