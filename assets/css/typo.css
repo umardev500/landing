@@ -1,0 +1,10 @@
+.section-title {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+@media (min-width: 1280px) {
+  .section-title {
+    font-size: 44px;
+  }
+}
