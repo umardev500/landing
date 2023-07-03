@@ -11,6 +11,14 @@
   bottom: 0;
   left: 0;
   backdrop-filter: blur(2px);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.sidebar.shown::before {
+  opacity: 1;
+  pointer-events: unset;
 }
 
 .sidebar .inner {
@@ -18,9 +26,15 @@
   position: fixed;
   top: 0;
   bottom: 0;
-  left: 30%;
+  left: 100%;
   right: 0;
   padding: 2rem;
+  transition: left 0.3s ease;
+}
+
+.sidebar.shown .inner {
+  left: 25%;
+  transition: left 0.3s ease;
 }
 
 .sidebar .inner .actions {
@@ -44,6 +58,11 @@
   color: #6b7280;
 }
 
+.sidebar .inner .actions .close .icon {
+  width: 24px;
+  height: 24px;
+}
+
 .sidebar .inner .actions {}
 
 .sidebar .inner .menus {
@@ -57,6 +76,7 @@
   text-decoration: none;
   color: #6b7280;
   font-size: 20px;
+  white-space: nowrap;
 }
 
 .sidebar .inner .menus a:hover,
@@ -77,5 +97,7 @@
 }
 
 .sidebar .inner .menus {}
+
 .sidebar .inner .menus {}
+
 .sidebar .inner {}
