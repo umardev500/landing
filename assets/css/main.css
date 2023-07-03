@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+body {
+  padding-bottom: 4rem;
+}
+
 .container {
   padding-left: 2rem;
   padding-right: 2rem;
