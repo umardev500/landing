@@ -23,6 +23,29 @@
   padding: 2rem;
 }
 
+.sidebar .inner .actions {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.sidebar .inner .actions .close {
+  display: inline-flex;
+  width: 24px;
+  height: 24px;
+  color: #4b5563;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.sidebar .inner .actions .close:hover {
+  cursor: pointer;
+  color: #6b7280;
+}
+
+.sidebar .inner .actions {}
+
 .sidebar .inner .menus {
   display: flex;
   gap: 1.5rem;
