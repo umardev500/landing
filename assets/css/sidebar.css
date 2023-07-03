@@ -1,0 +1,58 @@
+.sidebar {
+  z-index: 1050;
+}
+
+.sidebar::before {
+  content: "";
+  background-color: rgba(0, 0, 0, .5);
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  backdrop-filter: blur(2px);
+}
+
+.sidebar .inner {
+  background-color: #C4DCC6;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 30%;
+  right: 0;
+  padding: 2rem;
+}
+
+.sidebar .inner .menus {
+  display: flex;
+  gap: 1.5rem;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.sidebar .inner .menus a {
+  text-decoration: none;
+  color: #6b7280;
+  font-size: 20px;
+}
+
+.sidebar .inner .menus a:hover,
+.sidebar .inner .menus a.active {
+  color: #27272a;
+}
+
+.sidebar .inner .menus a.contact {
+  background-color: #70B076;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  border-radius: 999px;
+  color: white;
+  display: inline-flex;
+  width: auto;
+}
+
+.sidebar .inner .menus {}
+.sidebar .inner .menus {}
+.sidebar .inner {}
