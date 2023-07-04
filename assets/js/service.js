@@ -1,6 +1,6 @@
 const swiper = new Swiper('.swiper-service', {
   // Optional parameters
-  loop: true,
+  loop: false,
 
   autoHeight: true,
   slidesPerView: 1.3,
