@@ -13,7 +13,7 @@
 }
 
 .resource {
-  margin-top: 16rem;
+  margin-top: 10rem;
 }
 
 /* big card */
@@ -32,10 +32,10 @@
 .resource .cards .card {
   background-color: #C4DCC6;
   border-radius: 14px;
-  padding-top: 2.2rem;
-  padding-left: 2.2rem;
-  padding-right: 2.2rem;
-  padding-bottom: 2.2rem;
+  padding-top: 1.2rem;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  padding-bottom: 1.2rem;
 }
 
 .resource .cards .card .title {
@@ -57,7 +57,9 @@
 .resource .cards {}
 
 @media (min-width: 1280px) {
-  .resource {}
+  .resource {
+    margin-top: 16rem;
+  }
 
   .resource .title-wrapper {}
 
@@ -65,6 +67,13 @@
     font-size: 18px;
   }
 
+
+  .resource .cards .card {
+    padding-top: 2.2rem;
+    padding-left: 2.2rem;
+    padding-right: 2.2rem;
+    padding-bottom: 2.2rem;
+  }
   /* big card */
   .resource .big-card {
     display: flex;
