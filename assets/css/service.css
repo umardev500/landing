@@ -1,0 +1,153 @@
+.services {
+  margin-top: 4rem;
+}
+
+.services .title-wrapper {
+  max-width: 775px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  line-height: 1.5;
+}
+
+.services .title-wrapper .text {
+  color: #4b5563;
+  line-height: 1.8;
+}
+
+.services .service-heading .service-nav {
+  display: none;
+}
+
+.swiper-service {
+  min-height: 100px;
+  overflow: hidden;
+  position: relative;
+  margin-top: 4rem;
+}
+
+.swiper-service .swiper-wrapper {
+  padding-left: 1rem;
+}
+
+.swiper-service .swiper-wrapper .swiper-slide {
+  height: 100% !important;
+  position: relative;
+}
+
+.swiper-service .swiper-wrapper .swiper-slide:first-child {
+  padding-left: 1rem;
+}
+
+.swiper-service .swiper-wrapper .swiper-slide .inner {
+  border: 1px solid #C4DCC6;
+  height: 100%;
+  padding: 1rem;
+  border-radius: 14px;
+}
+
+.swiper-service .swiper-wrapper .swiper-slide .inner:hover {
+  cursor: pointer;
+}
+
+
+
+.swiper-service .swiper-wrapper .swiper-slide .inner .icon {
+  width: 48px;
+  height: 48px;
+  background-image: var(--service-icon);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top;
+  margin-bottom: 1rem;
+}
+
+.swiper-service .swiper-wrapper .swiper-slide .inner:hover .icon {
+  background-image: var(--service-hover-icon);
+}
+
+.swiper-service .swiper-wrapper .swiper-slide .inner:hover {
+  background-color: #C4DCC6;
+}
+
+.swiper-service .swiper-wrapper .swiper-slide .inner .title {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  color: #1f2937;
+  line-height: 1.5;
+}
+
+.swiper-service .swiper-wrapper .swiper-slide .inner:hover .title,
+.swiper-service .swiper-wrapper .swiper-slide .inner:hover .text {
+  color: white;
+}
+
+.swiper-service .swiper-wrapper .swiper-slide .inner .text {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #6b7280;
+}
+
+.swiper-service .swiper-wrapper .swiper-slide .inner {}
+
+.swiper-service .swiper-wrapper .swiper-slide .inner {}
+
+@media (min-width: 1280px) {
+  .swiper-service .swiper-wrapper .swiper-slide .inner {
+    padding: 2rem;
+  }
+
+  .swiper-service .swiper-wrapper .swiper-slide:first-child {
+    padding-left: 5rem;
+  }
+
+  .swiper-service .swiper-wrapper .swiper-slide .inner .icon {
+    width: 90px;
+    height: 90px;
+  }
+
+  .swiper-service .swiper-wrapper .swiper-slide .inner .title {
+    font-size: 28px;
+  }
+
+  .swiper-service .swiper-wrapper .swiper-slide .inner .text {
+    font-size: 18px;
+  }
+
+  .services .service-heading {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .service-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 1rem;
+  }
+
+  .service-nav div {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #C4DCC6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+  }
+  .service-nav div .icon {
+    width: 22px;
+    height: 22px;
+    color: #1f2937;
+  }
+
+  .service-nav div:hover {
+    background-color: #C4DCC6;
+    cursor: pointer;
+  }
+}

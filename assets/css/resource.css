@@ -12,7 +12,9 @@
   line-height: 1.8;
 }
 
-.resource {}
+.resource {
+  margin-top: 16rem;
+}
 
 /* big card */
 .resource .big-card {

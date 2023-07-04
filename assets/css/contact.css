@@ -68,11 +68,11 @@
     align-items: center;
     margin-left: unset;
     margin-right: unset;
-    margin-top: 8rem;
+    margin-top: 12rem;
     border-radius: 2rem;
     overflow: hidden;
     height: 450px;
-    margin-bottom: 8rem;
+    margin-bottom: 12rem;
   }
 
   .contact-container .image {
