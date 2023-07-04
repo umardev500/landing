@@ -2,7 +2,6 @@ const menus = document.querySelectorAll('[data-scroll]')
 
 function gotoElementScroll(id) {
   const element = document.getElementById(id)
-  console.log('elem', element)
   if (element) {
     element.scrollIntoView({
       behavior: 'smooth',

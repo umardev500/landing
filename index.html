@@ -16,9 +16,10 @@
     <link rel="stylesheet" href="assets/css/service.css" />
     <link rel="stylesheet" href="assets/css/blog.css" />
     <link rel="stylesheet" href="assets/css/typo.css" />
+    <link rel="stylesheet" href="assets/css/to-top.css" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="stylesheet" href="assets/vendor/swiper/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="assets/vendor/aos/aos.css">
+    <link rel="stylesheet" href="assets/vendor/aos/aos.css" />
   </head>
   <body>
     <!-- menu -->
@@ -97,7 +98,9 @@
             <a data-scroll="blog-section" href="#">Blog</a>
           </li>
           <li>
-            <a data-scroll="contact-section" href="#" class="contact">Contact Us</a>
+            <a data-scroll="contact-section" href="#" class="contact"
+              >Contact Us</a
+            >
           </li>
           <li class="dropdown">
             <a href=""
@@ -130,7 +133,7 @@
     <!-- End of header -->
 
     <!-- hero -->
-    <section id="hero-section"  class="container">
+    <section id="hero-section" class="container">
       <div class="hero">
         <div data-aos="fade-right" class="text-container">
           <h1 class="text">
@@ -457,7 +460,11 @@
       </div>
 
       <!-- Slider main container -->
-      <div data-aos="fade-up" data-aos-delay="300" class="blog-swiper-container">
+      <div
+        data-aos="fade-up"
+        data-aos-delay="300"
+        class="blog-swiper-container"
+      >
         <div class="inner">
           <div class="swiper-blog">
             <!-- Additional required wrapper -->
@@ -669,6 +676,24 @@
       </div>
     </footer>
 
+    <!-- scroll to top -->
+    <button id="to-top">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        class="icon"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M12 19.5v-15m0 0l-6.75 6.75M12 4.5l6.75 6.75"
+        />
+      </svg>
+    </button>
+
     <script src="assets/js/sidebar.js"></script>
     <script src="assets/js/dropdown.js"></script>
     <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
@@ -677,5 +702,6 @@
     <script src="assets/vendor/aos/aos.js"></script>
     <script src="assets/js/aos.js"></script>
     <script src="assets/js/scroll.js"></script>
+    <script src="assets/js/to-top.js"></script>
   </body>
 </html>
