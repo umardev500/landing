@@ -82,22 +82,22 @@
       <nav class="navbar">
         <ul>
           <li>
-            <a href="#" class="active">Home</a>
+            <a data-scroll="hero-section" href="#" class="active">Home</a>
           </li>
           <li>
-            <a href="#">About</a>
+            <a data-scroll="about-section" href="#">About</a>
           </li>
           <li>
-            <a href="#">Services</a>
+            <a data-scroll="service-section" href="#">Services</a>
           </li>
           <li>
-            <a href="#">Resources</a>
+            <a data-scroll="resources-section" href="#">Resources</a>
           </li>
           <li>
-            <a href="#">Blog</a>
+            <a data-scroll="blog-section" href="#">Blog</a>
           </li>
           <li>
-            <a href="#" class="contact">Contact Us</a>
+            <a data-scroll="contact-section" href="#" class="contact">Contact Us</a>
           </li>
           <li class="dropdown">
             <a href=""
@@ -130,7 +130,7 @@
     <!-- End of header -->
 
     <!-- hero -->
-    <section class="container">
+    <section id="hero-section"  class="container">
       <div class="hero">
         <div data-aos="fade-right" class="text-container">
           <h1 class="text">
@@ -145,7 +145,7 @@
     <!-- end of hero -->
 
     <!-- about -->
-    <section class="container about">
+    <section id="about-section" class="container about">
       <div data-aos="fade-up" class="title-wrapper">
         <h3 class="section-title">Welcome to Merriam Therapy</h3>
         <p class="text">
@@ -194,7 +194,7 @@
     <!-- end of about -->
 
     <!-- services -->
-    <section>
+    <section id="service-section">
       <div class="container services">
         <div data-aos="fade-right" class="service-heading">
           <div class="title-wrapper">
@@ -376,7 +376,7 @@
     <!-- end of services -->
 
     <!-- resources -->
-    <section class="container resource">
+    <section id="resources-section" class="container resource">
       <div data-aos="fade-up" class="title-wrapper">
         <h3 class="section-title">
           Knowledge Is Powerful in Helping You to Improve Your Mental Health
@@ -444,7 +444,7 @@
     <!-- end of resources -->
 
     <!-- Blog -->
-    <section>
+    <section id="blog-section">
       <div data-aos="fade-up" class="container blog">
         <div class="title-wrapper">
           <h3 class="section-title">Our latest Blog (Coming soon)</h3>
@@ -613,7 +613,7 @@
     <!-- End of blog -->
 
     <!-- contact -->
-    <section data-aos="fade-right" class="container">
+    <section id="contact-section" data-aos="fade-right" class="container">
       <div class="contact-container">
         <div class="image">
           <img src="assets/images/contact/thumb.png" alt="thumb" />
@@ -638,12 +638,12 @@
           <img src="assets/images/logos/logo.svg" alt="logo" />
         </div>
         <div class="menus">
-          <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Services</a>
-          <a href="#">Resources</a>
-          <a href="#">Blog</a>
-          <a href="#">Contact Us</a>
+          <a data-scroll="hero-section" href="#">Home</a>
+          <a data-scroll="about-section" href="#">About</a>
+          <a data-scroll="service-section" href="#">Services</a>
+          <a data-scroll="resources-section" href="#">Resources</a>
+          <a data-scroll="blog-section" href="#">Blog</a>
+          <a data-scroll="contact-section" href="#">Contact Us</a>
         </div>
       </div>
       <!-- bottom -->
@@ -676,5 +676,6 @@
     <script src="assets/js/blog.js"></script>
     <script src="assets/vendor/aos/aos.js"></script>
     <script src="assets/js/aos.js"></script>
+    <script src="assets/js/scroll.js"></script>
   </body>
 </html>
