@@ -4,7 +4,9 @@
   box-sizing: border-box;
 }
 
-body {}
+body {
+  overflow-x: hidden;
+}
 
 .container {
   padding-left: 2rem;
