@@ -25,6 +25,7 @@
   padding-top: 8px;
   padding-bottom: 8px;
   color: #4b5563;
+  text-decoration: none;
 }
 
 .dropdown .dropdown-menu > .item:hover {
