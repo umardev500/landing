@@ -123,6 +123,10 @@
     justify-content: space-between;
   }
 
+  .services .service-heading .service-nav {
+    display: flex;
+  }
+
   .service-nav {
     display: flex;
     align-items: center;
