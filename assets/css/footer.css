@@ -31,7 +31,7 @@
 
 .footer .bottom .copy {
   text-align: center;
-  color: white;
+  color: #6b7280;
 }
 
 .footer .bottom .icons {
@@ -56,12 +56,12 @@
 
   .footer .top .menus a {
     text-decoration: none;
-    color: white;
+    color: #6b7280;
     font-size: 18px;
   }
 
   .footer .top .menus a:hover {
-    color: #6b7280;
+    color: #4b5563;
   }
 
   .footer .top .menus {}
