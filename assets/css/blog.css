@@ -108,6 +108,7 @@
 
   .blog-swiper-container {
     margin-top: 15rem;
+    padding-bottom: 4rem;
   }
 
   .swiper-blog .swiper-wrapper .swiper-slide:first-child {
