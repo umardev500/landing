@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="assets/css/blog.css" />
     <link rel="stylesheet" href="assets/css/typo.css" />
     <link rel="stylesheet" href="assets/css/to-top.css" />
+    <link rel="stylesheet" href="assets/css/modal.css" />
     <link rel="stylesheet" href="assets/css/sidebar.css" />
     <link rel="stylesheet" href="assets/vendor/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="assets/vendor/aos/aos.css" />
@@ -55,7 +56,7 @@
       <nav class="navbar">
         <ul>
           <li>
-            <a data-scroll="header" href="#" class="active">Home</a>
+            <a data-scroll="hero-section" href="#" class="active">Home</a>
           </li>
           <li>
             <a data-scroll="about-section" href="#">About</a>
@@ -76,7 +77,7 @@
           </li>
           <li class="dropdown">
             <a href=""
-              >Arabic
+              >English
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -105,7 +106,7 @@
     <!-- End of header -->
 
     <!-- hero -->
-    <section style="overflow-x: hidden;" id="hero-section" class="container">
+    <section style="overflow: hidden;" id="hero-section" class="container">
       <div class="hero">
         <div data-aos="fade-right" class="text-container">
           <h1 class="text">
@@ -120,7 +121,7 @@
     <!-- end of hero -->
 
     <!-- about -->
-    <section style="overflow-x: hidden;" id="about-section" class="container about">
+    <section style="overflow: hidden;" id="about-section" class="container about">
       <div data-aos="fade-up" class="title-wrapper">
         <h3 class="section-title">Welcome to Merriam Therapy</h3>
         <p class="text">
@@ -169,7 +170,7 @@
     <!-- end of about -->
 
     <!-- services -->
-    <section style="overflow-x: hidden;" id="service-section">
+    <section style="overflow: hidden;" id="service-section">
       <div class="container services">
         <div data-aos="fade-right" class="service-heading">
           <div class="title-wrapper">
@@ -350,8 +351,10 @@
     </section>
     <!-- end of services -->
 
+    
+
     <!-- resources -->
-    <section style="overflow-x: hidden;" id="resources-section" class="container resource">
+    <section style="overflow: hidden;" id="resources-section" class="container resource">
       <div data-aos="fade-up" class="title-wrapper">
         <h3 class="section-title">
           Knowledge Is Powerful in Helping You to Improve Your Mental Health
@@ -402,15 +405,15 @@
       </div>
       <!-- cards -->
       <div data-aos="fade-right" data-aos-delay="300" class="cards">
-        <div class="card">
+        <div class="card" data-toggle="modal" data-target="modal-1">
           <h3 class="title">Lorem ipsum dolor is amet</h3>
           <img src="assets/images/resources/thumb-small.png" alt="" />
         </div>
-        <div class="card">
+        <div class="card" data-toggle="modal" data-target="modal-1">
           <h3 class="title">Lorem ipsum dolor is amet</h3>
           <img src="assets/images/resources/thumb-small-2.png" alt="" />
         </div>
-        <div class="card">
+        <div class="card" data-toggle="modal" data-target="modal-1">
           <h3 class="title">Lorem ipsum dolor is amet</h3>
           <img src="assets/images/resources/thumb-small-3.png" alt="" />
         </div>
@@ -418,8 +421,16 @@
     </section>
     <!-- end of resources -->
 
+    <!-- resource modals -->
+    <div class="modal" id="modal-1">
+      <div class="inner">
+        <iframe src="https://www.youtube.com/embed/A-delsQUSXo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    </div>
+    <!-- end of resource modals -->
+
     <!-- Blog -->
-    <section style="overflow-x: hidden;" id="blog-section">
+    <section style="overflow: hidden;" id="blog-section">
       <div data-aos="fade-up" class="container blog">
         <div class="title-wrapper">
           <h3 class="section-title">Our latest Blog (Coming soon)</h3>
@@ -592,7 +603,7 @@
     <!-- End of blog -->
 
     <!-- contact -->
-    <section style="overflow-x: hidden;" id="contact-section" data-aos="fade-right" class="container">
+    <section style="overflow: hidden;" id="contact-section" data-aos="fade-right" class="container">
       <div class="contact-container">
         <div class="image">
           <img src="assets/images/contact/thumb.png" alt="thumb" />
@@ -603,7 +614,7 @@
             <p class="text">
               We offer a complimentary 15-minute <br />consultation.
             </p>
-            <a href="#" class="btn">Contact us today!</a>
+            <a href="https://google.com" class="btn">Contact us today!</a>
           </div>
         </div>
       </div>
@@ -617,7 +628,7 @@
           <img src="assets/images/logos/logo.svg" alt="logo" />
         </div>
         <div class="menus">
-          <a data-scroll="hero-section" href="#">Home</a>
+          <a data-scroll="header href="#">Home</a>
           <a data-scroll="about-section" href="#">About</a>
           <a data-scroll="service-section" href="#">Services</a>
           <a data-scroll="resources-section" href="#">Resources</a>
@@ -709,5 +720,6 @@
     <script src="assets/js/aos.js"></script>
     <script src="assets/js/scroll.js"></script>
     <script src="assets/js/to-top.js"></script>
+    <script src="assets/js/modal.js"></script>
   </body>
 </html>
