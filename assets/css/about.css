@@ -99,6 +99,10 @@
 .about {}
 
 @media (min-width: 1280px) {
+  .about {
+    margin-bottom: 16rem;
+  }
+  
   .about .title-wrapper {
     text-align: center;
   }

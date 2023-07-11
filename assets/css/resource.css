@@ -58,7 +58,7 @@
 
 @media (min-width: 1280px) {
   .resource {
-    margin-top: 16rem;
+    margin-bottom: 16rem;
   }
 
   .resource .title-wrapper {}
