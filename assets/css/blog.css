@@ -97,6 +97,10 @@
 .swiper-blog .swiper-wrapper .swiper-slide .inner {}
 
 @media (min-width: 1280px) {
+  .blog {
+    margin-top: 0;
+  }
+  
   .swiper-blog {
     padding-left: calc(5rem + 10rem);
     margin-top: -12rem;
