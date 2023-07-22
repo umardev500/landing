@@ -6,12 +6,13 @@ for (let i = 0; i < modals.length; i++) {
     const isInner = inner.contains(e.target)
     if (!isInner) {
       modal.classList.remove('shown')
+      const vid = document.getElementById('youtube-video')
+      vid.contentWindow.postMessage( '{"event":"command", "func":"pauseVideo", "args":""}', '*');
     }
   })
 }
 
 const modalTogglers = document.querySelectorAll('[data-toggle="modal"]')
-console.log(modalTogglers)
 for (let i = 0; i < modalTogglers.length; i++) {
   const btn = modalTogglers[i]
   btn.addEventListener('click', function (e) {
